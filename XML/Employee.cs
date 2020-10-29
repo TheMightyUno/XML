@@ -21,5 +21,6 @@ namespace XMLSample2
         public double SSNumber { get; set; }
         [XmlElement("Today's Date")]
         public DateTime EntryDate { get; set; } // using DateTime method. Predefined method method in .NET Framework
+        public string JobRole { get; set; }
     }
 }
