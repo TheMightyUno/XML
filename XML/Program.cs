@@ -16,7 +16,7 @@ namespace XMLSample2
             Employee emp = new Employee();
 
             emp.ID = 123;
-            emp.Name = "Ninja Nerd";
+            emp.Name = "Chris";
             emp.SSNumber = 123456789;
             emp.EntryDate = DateTime.Now;
 
@@ -24,7 +24,7 @@ namespace XMLSample2
 
             //Creating location to store your XML file
             string FilePath = "C:/Temp/";
-            string FileName = "Ninja.xml";
+            string FileName = "Samurai.xml";
 
             TextWriter writer = new StreamWriter(FilePath + FileName);
 
